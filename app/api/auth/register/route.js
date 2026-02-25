@@ -34,7 +34,7 @@ export async function POST(request) {
             email,
             name,
             password,
-            role: role || "student",
+            role: role || "user",
         });
 
         const token = signToken(user);

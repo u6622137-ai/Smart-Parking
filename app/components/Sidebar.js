@@ -5,11 +5,11 @@ import { useAuth } from "./AuthContext";
 import { usePathname } from "next/navigation";
 
 const allLinks = [
-    { href: "/dashboard", label: "Overview", icon: "📊", roles: ["admin", "staff", "student"] },
+    { href: "/dashboard", label: "Overview", icon: "📊", roles: ["admin", "user"] },
     { href: "/dashboard/users", label: "Users", icon: "👥", roles: ["admin"] },
-    { href: "/dashboard/zones", label: "Parking Zones", icon: "🏗️", roles: ["admin", "staff"] },
-    { href: "/dashboard/slots", label: "Parking Slots", icon: "🚗", roles: ["admin", "staff"] },
-    { href: "/dashboard/reservations", label: "Reservations", icon: "📋", roles: ["admin", "staff", "student"] },
+    { href: "/dashboard/zones", label: "Parking Zones", icon: "🏗️", roles: ["admin"] },
+    { href: "/dashboard/slots", label: "Parking Slots", icon: "🚗", roles: ["admin"] },
+    { href: "/dashboard/reservations", label: "Reservations", icon: "📋", roles: ["admin", "user"] },
     { href: "/dashboard/analytics", label: "Analytics", icon: "📈", roles: ["admin"] },
 ];
 

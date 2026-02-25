@@ -15,7 +15,7 @@ export default function DashboardPage() {
 
     const loadDashboard = async () => {
         try {
-            if (user?.role === "admin" || user?.role === "staff") {
+            if (user?.role === "admin") {
                 const res = await authFetch("/api/dashboard");
                 if (res.ok) {
                     const data = await res.json();
@@ -23,7 +23,7 @@ export default function DashboardPage() {
                     setRecentReservations(data.recentReservations || []);
                 }
             } else {
-                // Students: load their own reservations count
+                // Users: load their own reservations count
                 const res = await authFetch("/api/reservations");
                 if (res.ok) {
                     const data = await res.json();
@@ -51,7 +51,7 @@ export default function DashboardPage() {
         );
     }
 
-    const isAdmin = user?.role === "admin" || user?.role === "staff";
+    const isAdmin = user?.role === "admin";
 
     return (
         <div>

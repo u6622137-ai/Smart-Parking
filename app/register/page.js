@@ -135,8 +135,7 @@ export default function RegisterPage() {
                             value={form.role}
                             onChange={handleChange}
                         >
-                            <option value="student">Student</option>
-                            <option value="staff">Staff</option>
+                            <option value="user">User</option>
                             <option value="admin">Admin</option>
                         </select>
                     </div>

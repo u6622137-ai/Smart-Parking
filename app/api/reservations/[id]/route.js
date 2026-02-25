@@ -28,9 +28,9 @@ export async function GET(request, { params }) {
             );
         }
 
-        // Students can only see their own
+        // Users can only see their own
         if (
-            authUser.role === "student" &&
+            authUser.role === "user" &&
             reservation.userId._id.toString() !== authUser.userId
         ) {
             return NextResponse.json(
@@ -72,9 +72,9 @@ export async function PUT(request, { params }) {
             );
         }
 
-        // Students can only update their own
+        // Users can only update their own
         if (
-            authUser.role === "student" &&
+            authUser.role === "user" &&
             reservation.userId.toString() !== authUser.userId
         ) {
             return NextResponse.json(
@@ -122,9 +122,9 @@ export async function DELETE(request, { params }) {
             );
         }
 
-        // Students can only cancel their own
+        // Users can only cancel their own
         if (
-            authUser.role === "student" &&
+            authUser.role === "user" &&
             reservation.userId.toString() !== authUser.userId
         ) {
             return NextResponse.json(

@@ -8,7 +8,7 @@ import { requireRole } from "@/lib/auth";
 // GET dashboard stats (admin only)
 export async function GET(request) {
     try {
-        const auth = await requireRole("admin", "staff")(request);
+        const auth = await requireRole("admin")(request);
         if (!auth.authorized) {
             return NextResponse.json(
                 { error: auth.message },

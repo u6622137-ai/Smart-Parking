@@ -18,8 +18,8 @@ export async function GET(request) {
         await connectDB();
 
         const filter = {};
-        // Students can only see their own reservations
-        if (authUser.role === "student") {
+        // Users can only see their own reservations
+        if (authUser.role === "user") {
             filter.userId = authUser.userId;
         }
 
