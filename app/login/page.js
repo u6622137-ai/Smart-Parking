@@ -87,7 +87,7 @@ export default function LoginPage() {
                     <button
                         type="button"
                         onClick={(e) => {
-                            setForm({ email: "admin@smartpark.com", password: "password123" });
+                            setForm({ email: "admin@test.com", password: "password123" });
                             // Need to handle submit after state updates, easiest way is to trigger it
                             setTimeout(() => {
                                 document.getElementById("login-form").requestSubmit();

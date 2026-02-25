@@ -59,6 +59,18 @@ export async function POST(request) {
             );
         }
 
+        // Capacity validation
+        const zone = await (await import("@/models/ParkingZone")).default.findById(zoneId);
+        if (zone && zone.capacity > 0) {
+            const currentSlotsCount = await ParkingSlot.countDocuments({ zoneId });
+            if (currentSlotsCount >= zone.capacity) {
+                return NextResponse.json(
+                    { error: `Capacity reached for this zone (${zone.capacity} slots max).` },
+                    { status: 400 }
+                );
+            }
+        }
+
         const slot = await ParkingSlot.create({
             slotNumber,
             zoneId,
