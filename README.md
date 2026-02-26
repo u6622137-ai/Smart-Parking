@@ -17,67 +17,23 @@ SmartPark is a university parking reservation system built with Next.js and Mong
 - http://20.195.26.45
 
 ## Screenshots
-## Screenshots
-
-![Landing Page](screenshots/First_Page.jpeg)
+![Landing Page](screenshots/First_Page.jpeg) 
 ![Login Page](screenshots/Login.jpeg)
-
+![Admin Dashboard Overview](screenshots/Admin_Overview.jpeg)
+![Admin Parking Slots](screenshots/Admin_ParkingSlots.jpeg)
+![Admin Parking Zones](screenshots/Admin_ParkingZones.jpeg)
+![Admin Reservations](screenshots/Admin_Reservations.jpeg)
+![Admin Users Management](screenshots/Admin_UserPage.jpeg)
 ![Student Dashboard](screenshots/Student_Dashboard.jpeg)
 ![Student Parking View](screenshots/Student_View.jpeg)
-
-![Admin Overview](screenshots/Screenshot 2026-02-26 at 4.35.50 PM.png)
-![Admin Parking Slots](screenshots/Screenshot 2026-02-26 at 4.35.55 PM.png)
-![Admin Parking Zones](screenshots/Screenshot 2026-02-26 at 4.35.58 PM.png)
-![Admin Reservations](screenshots/Screenshot 2026-02-26 at 4.36.01 PM.png)
-![Admin Users Management](screenshots/Screenshot 2026-02-26 at 4.36.04 PM.png)
-
-![Azure VM (Running)](screenshots/Screenshot 2026-02-26 at 4.47.57 PM.png)
-![Azure Deployment Output](screenshots/Screenshot 2026-02-27 at 2.15.53 AM.png)
+![Azure VM (Running)](screenshots/Azure_vm.jpeg)
+![Azure Deployment Output](screenshots/Azure_output.jpeg)
 
 ## Video Demo
+Watch here:
 https://www.youtube.com/watch?v=3y15cpfoZ8g&t=1s
 
 ## Features
-### Authentication & Authorization
-- User registration
-- Secure login with JWT
-- Role-based access control (User / Admin)
-- Protected API routes
-
-### 👤 User Features
-- Browse parking zones
-- View available parking slots
-- Create reservation (time-based booking)
-- Prevent over-booking with capacity validation
-- View own reservations
-
----
-
-### 👑 Admin Features
-- Full CRUD for Parking Zones
-- Full CRUD for Parking Slots
-- View all reservations
-- Manage users
-- Analytics dashboard with:
-  - Most reserved parking zone
-  - Peak reservation hour
-  - Total reservations
-  - Slot utilization overview
-
----
-
-### 📊 Analytics
-- Aggregation-based statistics from MongoDB
-- Dashboard visualization
-- Real-time reservation insights
-
----
-
-### ☁️ Cloud & DevOps
-- Deployed on Azure Virtual Machine
-- Reverse proxy with Nginx
-- Process management with PM2
-- Production-ready configuration
 
 ### User
 - View parking areas
