@@ -17,17 +17,22 @@ SmartPark is a university parking reservation system built with Next.js and Mong
 - http://20.195.26.45
 
 ## Screenshots
-![Landing Page](screenshots/First_Page.jpeg) 
+## Screenshots
+
+![Landing Page](screenshots/First_Page.jpeg)
 ![Login Page](screenshots/Login.jpeg)
-![Admin Dashboard Overview](screenshots/Admin_Overview.jpeg)
-![Admin Parking Slots](screenshots/Admin_ParkingSlots.jpeg)
-![Admin Parking Zones](screenshots/Admin_ParkingZones.jpeg)
-![Admin Reservations](screenshots/Admin_Reservations.jpeg)
-![Admin Users Management](screenshots/Admin_UserPage.jpeg)
+
 ![Student Dashboard](screenshots/Student_Dashboard.jpeg)
 ![Student Parking View](screenshots/Student_View.jpeg)
-![Azure VM (Running)](screenshots/Azure_vm.jpeg)
-![Azure Deployment Output](screenshots/Azure_output.jpeg)
+
+![Admin Overview](screenshots/Screenshot 2026-02-26 at 4.35.50 PM.png)
+![Admin Parking Slots](screenshots/Screenshot 2026-02-26 at 4.35.55 PM.png)
+![Admin Parking Zones](screenshots/Screenshot 2026-02-26 at 4.35.58 PM.png)
+![Admin Reservations](screenshots/Screenshot 2026-02-26 at 4.36.01 PM.png)
+![Admin Users Management](screenshots/Screenshot 2026-02-26 at 4.36.04 PM.png)
+
+![Azure VM (Running)](screenshots/Screenshot 2026-02-26 at 4.47.57 PM.png)
+![Azure Deployment Output](screenshots/Screenshot 2026-02-27 at 2.15.53 AM.png)
 
 ## Video Demo
 https://www.youtube.com/watch?v=3y15cpfoZ8g&t=1s
