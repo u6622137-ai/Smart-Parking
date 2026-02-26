@@ -136,7 +136,6 @@ export default function RegisterPage() {
                             onChange={handleChange}
                         >
                             <option value="student">Student</option>
-                            <option value="user">User</option>
                             <option value="admin">Admin</option>
                         </select>
                     </div>
