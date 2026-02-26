@@ -43,7 +43,7 @@ SmartPark is a university parking reservation system built with Next.js and Mong
 ![Reservations](public/screenshots/reservations.png)
 
 ## Video Demo
-https://youtu.be/rSyGB-BREpM
+https://youtu.be/3y15cpfoZ8g
 
 ## Features
 ### Authentication & Authorization
