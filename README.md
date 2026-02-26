@@ -1,8 +1,8 @@
 # SmartPark — University Parking Reservation & Analytics
 
 ## Team Members
-- Zaw Lin Aung 
-- Nyi Min Htet 
+- Zaw Lin Aung — [u6622137-ai](https://github.com/u6622137-ai)
+- Nyi Min Htet — [u6622132] (https://github.com/Bryan490125)
 
 ## Project Description
 SmartPark is a university parking reservation system built with Next.js and MongoDB. Users can browse parking areas and reserve a parking area for a time period. Admins can manage parking areas and view reservations. The system also provides analytics such as the most reserved parking area and peak reservation hour.
@@ -17,33 +17,20 @@ SmartPark is a university parking reservation system built with Next.js and Mong
 - http://20.195.26.45
 
 ## Screenshots
-
-### Azure VM (Running)
-![Azure VM](public/screenshots/azure-vm.png)
-
-### Student Dashboard
-![Student Dashboard](public/screenshots/student-dashboard.png)
-
-### Parking Availability
-![Availability](public/screenshots/availability.png)
-
-### Admin Dashboard
-![Admin Dashboard](public/screenshots/admin-dashboard.png)
-
-### Admin - Users
-![Users](public/screenshots/users.png)
-
-### Admin - Parking Zones
-![Zones](public/screenshots/zones.png)
-
-### Admin - Parking Slots
-![Slots](public/screenshots/slots.png)
-
-### Admin - Reservations
-![Reservations](public/screenshots/reservations.png)
+![Landing Page](screenshots/First_Page.jpeg) 
+![Login Page](screenshots/Login.jpeg)
+![Admin Dashboard Overview](screenshots/Admin_Overview.jpeg)
+![Admin Parking Slots](screenshots/Admin_ParkingSlots.jpeg)
+![Admin Parking Zones](screenshots/Admin_ParkingZones.jpeg)
+![Admin Reservations](screenshots/Admin_Reservations.jpeg)
+![Admin Users Management](screenshots/Admin_UserPage.jpeg)
+![Student Dashboard](screenshots/Student_Dashboard.jpeg)
+![Student Parking View](screenshots/Student_View.jpeg)
+![Azure VM (Running)](screenshots/Azure_vm.jpeg)
+![Azure Deployment Output](screenshots/Azure_output.jpeg)
 
 ## Video Demo
-https://youtu.be/3y15cpfoZ8g
+https://www.youtube.com/watch?v=3y15cpfoZ8g&t=1s
 
 ## Features
 ### Authentication & Authorization
