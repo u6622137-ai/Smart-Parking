@@ -16,6 +16,9 @@ SmartPark is a university parking reservation system built with Next.js and Mong
 ## Production URL
 - http://20.195.26.45
 
+> [!IMPORTANT]
+> Once Analytics is working, follow [DEPLOYMENT_DNS_SETUP.md](DEPLOYMENT_DNS_SETUP.md) to assign a DNS name to your Azure VM and bypass university firewall blocks.
+
 ## Screenshots
 ![Landing Page](screenshots/First_Page.jpeg) 
 ![Login Page](screenshots/Login.jpeg)

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useAuth } from "../../components/AuthContext";
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -30,10 +31,13 @@ export default function AnalyticsPage() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
 
+    const { authFetch } = useAuth();
+
     const fetchAnalytics = async () => {
         try {
             setLoading(true);
-            const res = await fetch("/api/admin/analytics");
+            // use authFetch so the JWT token is automatically included
+            const res = await authFetch("/api/admin/analytics");
             if (!res.ok) {
                 const data = await res.json();
                 throw new Error(data.error || "Failed to fetch analytics");
